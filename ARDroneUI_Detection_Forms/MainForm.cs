@@ -192,7 +192,7 @@ namespace ARDroneUI_Detection_Forms
 
         private void LedAnimation()
         {
-            Command LedAnimationCommand = new PlayLedAnimationCommand(ARDrone.Control.Commands.LedAnimation.MarqueeBlink, 2 , 2);
+            Command LedAnimationCommand = new PlayLedAnimationCommand(ARDrone.Control.Commands.LedAnimation.BLINK_STANDARD, 2 , 2);
 
             //if (!droneControl.IsCommandPossible(resetCommand) || !droneControl.IsCommandPossible(flatTrimCommand))
             //    return;
